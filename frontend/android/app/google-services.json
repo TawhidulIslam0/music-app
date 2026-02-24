@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "591671198936",
+    "project_id": "music-recommender-516a9",
+    "storage_bucket": "music-recommender-516a9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591671198936:android:e899c1def0ea3b32eac3ad",
+        "android_client_info": {
+          "package_name": "com.example.frontend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyiBUq54iSKxbltlC2nnoN3J5rPXzgE-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591671198936:android:8e5f4a1f32b5a715eac3ad",
+        "android_client_info": {
+          "package_name": "com.example.music_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyiBUq54iSKxbltlC2nnoN3J5rPXzgE-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
