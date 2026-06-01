@@ -1,14 +1,16 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 import requests
+import os                     # Added to read system variables
+from dotenv import load_dotenv # Added to load the .env file
 
 app = Flask(__name__)
 CORS(app)
 
 # -------------------
-# Jamendo credentials
+# Jamendo credentials (Loaded securely!)
 # -------------------
-CLIENT_ID = "9c925484"  # Replace with your Jamendo Client ID
+CLIENT_ID = os.getenv("JAMENDO_CLIENT_ID")
 BASE_URL = "https://api.jamendo.com/v3.0/"
 
 # -------------------
